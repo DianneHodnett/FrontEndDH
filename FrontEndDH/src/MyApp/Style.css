@@ -6,9 +6,9 @@ body{
 
 .TempCont{
     border: 1px solid black;
-    padding: 0px 0px 15px 0px;
+    padding-left: 15px;
     background-color: white;
-    width: 100%;
+    width: 95%;
     margin: 0 auto 15px auto;
 }
 
@@ -20,15 +20,15 @@ body{
     height: 30px;
     background-color: lightgrey;
     border: 2px solid black;
-    margin: 2px;
+    margin: 10px;
 }
 
 .MyButton:hover{
-    background-color: lightcyan;
+    background-color: lightsteelblue;
 }
 
 .Main {
-    text-align: -moz-left;
+    padding: 5px;
 
 }
 

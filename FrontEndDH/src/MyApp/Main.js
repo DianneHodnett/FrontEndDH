@@ -52,19 +52,20 @@ export default class Main extends React.Component{
         <hr/>
         <p className="Main-intro">
             <ul>
-                <li>Enter apartment information.</li>
-                <li>Add floor plan detail.</li>
-                <li>Create a cluster with multiple apartments.</li>
-                <li>Then graph the information in the cluster.</li>
+                <li>Search for apartments.</li>
+                <li>Add apartment detail.</li>
+                <li>Update floor plan detail.</li>
+                <li>Delete apartment.</li>
             </ul>
         </p>
+        <hr/>
 
 
             <div>
-                <button className="MyButton" onClick={ FilterRepublicans} >Republicans</button>
-                <button className="MyButton" onClick={ FilterDemocrats} >Democrats</button>
-                <button className="MyButton" onClick={ FilterUtahSenators } >Utah Senators</button>
-                <button className="MyButton" onClick={ FilterUtahSenior } >Utah Senior Senator</button>
+                <button className="MyButton" onClick={ FilterRepublicans} >Show Apartments</button>
+                <button className="MyButton" onClick={ FilterDemocrats} >Add Apartments</button>
+                <button className="MyButton" onClick={ FilterUtahSenators } >Update Floor Plan</button>
+                <button className="MyButton" onClick={ FilterUtahSenior } >Delete Apartment</button>
             </div>
 
 
